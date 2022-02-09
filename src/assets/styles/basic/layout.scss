@@ -1,0 +1,17 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: 1fr 1140px 1fr;
+}
+
+.app-layout {
+    min-height: 100vh;
+    position: relative;
+}
+
+.full-layout {
+    grid-column: 1/4;
+}
+
+.middle-layout {
+    grid-column: 2/3;
+}
